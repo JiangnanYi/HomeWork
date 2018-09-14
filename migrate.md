@@ -6,6 +6,7 @@
 1、我先查询的是 S_PROVINCES 表的省市县，通过关联，还有表自身的递归我查询除了所有的省市县
 
 2、然后再查询 S_PROVINCES 表的省和市，得出一些只有市没有区的数据
+
 3、通过 union 的连接，我将两个查询对接在一起，然后添加到 lagou_city 表中，得到一份完整的地区表
 
     CREATE TABLE lagou_city as 
